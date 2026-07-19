@@ -108,6 +108,8 @@ resource "docker_container" "nginx1" {
 В документации написано, что если значение true, то Docker-образ не будет удален при операции destroy. Если значение false, то он будет удален из локального докер-хранилища.
 "keep_locally (Boolean) If true, then the Docker image won't be deleted on destroy operation. If this is false, it will delete the image from the docker local storage on destroy operation."
 
+Итоговый код находится в другом репозитории в папке [ter-homeworks/01/src](https://github.com/xkostix/ter-homeworks/tree/main/01/src)
+
 ---
 
 ## Задание 2
